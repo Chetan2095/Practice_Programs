@@ -149,12 +149,20 @@ for i in range(1, n + 1):  # This will print the space before the number
         print(k, end="")
     print()                    # Print a new line after the space and numbers are printed
 
+
           #space(n-i)
 # 12345       0
 #  1234       1
 #   123       2
 #    12       3
 #     1       4
+
+
+#   *
+#  * *
+# *   *
+#  * *
+#   *
 # Space >> number
 n = 5
 for i in range (n, 0, -1):      # The space will increase on each iteration as i value will decrease
